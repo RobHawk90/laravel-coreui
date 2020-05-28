@@ -18,8 +18,6 @@ services:
     image: postgres:12.3-alpine
     container_name: ${CONTAINERS_PREFIX}-db
     restart: unless-stopped
-    ports:
-      - ${DB_PORT}:3306
     environment:
       POSTGRES_DB: ${DB_DATABASE}
       POSTGRES_PASSWORD: ${DB_PASSWORD}
