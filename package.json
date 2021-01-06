@@ -14,7 +14,7 @@
         "@coreui/coreui": "^3.0.0",
         "@coreui/utils": "^1.2.4",
         "@popperjs/core": "^2.4.0",
-        "axios": "^0.19",
+        "axios": "^0.21",
         "bootstrap": "^4.0.0",
         "chart.js": "^2.9.3",
         "cross-env": "^7.0",
